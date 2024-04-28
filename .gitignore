@@ -1,0 +1,18 @@
+
+**/settings/Mainnet.toml
+**/settings/Testnet.toml
+.cache/**
+history.txt
+com.vercel.cli
+.env.development.local
+
+# Ignore Node and NPM files. Added by the clarinet-sdk migration.
+logs
+*.log
+npm-debug.log*
+coverage
+*.info
+costs-reports.json
+node_modules
+.vercel
+.next
